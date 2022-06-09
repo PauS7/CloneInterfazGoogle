@@ -1,0 +1,64 @@
+body{
+    background: #fffff;
+    font-family: sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: right;
+}
+.vinculoheader:link{
+    color: #444444;
+    text-decoration: none;
+}
+.vinculoheader:visited{
+    color: #444444;
+}
+.vinculoheader:hover{
+    text-decoration:none;
+}
+.imgLogo{
+    margin-top: 70px;
+    height: 120px;
+    width: 330px;
+}
+.logo{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.container-input{
+    display: flex;
+    justify-content: center;   
+}
+input{
+    margin-top: 20px;
+    width: 500px;
+    height: 38px;
+    border-radius: 25px;
+    border: 1px solid rgb(158, 156, 156);
+    background: #fff url("./images/search-icon.png") no-repeat 9px center;
+    transition: all .5s;
+}
+.labels{
+    margin-top: 35px;
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+.footer{
+    margin-top: 450px;
+    background: #eeeded;
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+}
+.vinculofooter:link{
+    color: #444444;
+    text-decoration: none;
+}
+.vinculofooter:visited{
+    color: #444444;
+}
+.vinculofooter:hover{
+    text-decoration:none;
+}
